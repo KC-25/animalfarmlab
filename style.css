@@ -1,12 +1,12 @@
 body{
-    background-color: lightblue;
+    background-color: rgb(204, 173, 230);
 }
 
 h1{
     font-size: xx-large;
     text-align: center;
     margin-top: 2%;
-    color: white;
+    color: purple;
     margin-bottom: 2%;
 }
 
@@ -38,29 +38,73 @@ main{
 
 #make-cat{
     padding: 30px;
-    border: solid white 2px;
+    border: solid purple 2px;
     border-radius: 50px;
+
 }
 
 #make-dog{
     padding: 30px;
-    border: solid white 2px;
+    border: solid purple 2px;
     border-radius: 50px;
+
 }
 
 #make-sheep{
     padding: 30px;
-    border: solid white 2px;
+    border: solid purple 2px;
     border-radius: 50px;
+
 }
 
 #make-horse{
     padding: 30px;
-    border: solid white 2px;
+    border: solid purple 2px;
     border-radius: 50px;
+
 }
+
+
 
 li{
     text-align: center;
-    margin-top: 25%;
+    margin-top: 4%;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 125px;
+    width: 125px;
+    border-radius: 25px;
+    margin-top: 10%;
+}
+
+nav{
+    margin-bottom: 5%;
+}
+
+/* section{
+    display: flex;
+    justify-content: center;
+} */
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin:auto;
+    text-align: center;
+    height: 200px;
+    width: 700px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+p{
+    text-align: center;
 }
